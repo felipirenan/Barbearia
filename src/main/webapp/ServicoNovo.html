@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/servico.css">
+    <title>Cadastro de Serviço</title>
+</head>
+<body>
+  
+    <section class="main_container">
+		<div class="container_estilo"></div>
+        <form action="gravaServico"  class="container_form">
+			<h1 class="main_title">Cadastre um serviço</h1>
+            <!--descricao:  -->
+           <label for="descricao" class="label_text">descrição:</label>
+            <input 
+                type="text"
+                name="descricao" 
+                id="descricao" 
+                placeholder="Insira uma descricao para o serviço"
+                required 
+                class="user_box"
+            >
+           <!-- valor: -->
+           <label for="valor" class="label_text">valor:</label>
+           <input 
+                type="number"
+                name="valor"
+                id="valor"
+                placeholder="Insira um valor para este serviço"
+                required
+                class="user_box"
+            >
+           <input type="submit" value="Cadastrar" class="btn">
+        </form>
+    </section>
+</body>
+</html>

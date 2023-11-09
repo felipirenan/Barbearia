@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/formularioPadrao.css">
+    <title>Cadastro de barbeiro</title>
+</head>
+<body>
+    
+    <section class="main_container">
+		<div class="container_estilo"></div>
+        <form action="gravaBarbeiro"  class="container_form">
+			 <h1 class="main_title">Cadastre um Barbeiro</h1>
+            <!--Nome:  -->
+           <label for="nomeBarbeiro" class="label_text">nome:</label>
+            <input 
+                type="text"
+                name="nomeBarbeiro" 
+                id="nomeBarbeiro" 
+                placeholder="Insira o nome do profissional"
+                required 
+                class="user_box"
+            >
+           <!-- telefone: -->
+           <label for="foneBarbeiro" class="label_text">telefone:</label>
+           <input 
+                type="text"
+                name="foneBarbeiro"
+                id="foneBarbeiro"
+                placeholder="Insira o telefone do profissional"
+                required
+                class="user_box"
+            >
+           <input type="submit" value="Cadastrar" class="btn">
+        </form>
+    </section>
+</body>
+</html>

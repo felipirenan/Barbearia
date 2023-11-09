@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../image/login_background_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.container_estilo{
+    height: 240px;
+    width: 600px;
+    background-color: rgb(109, 165, 147);
+    position: absolute; 
+    align-self: center;
+    align-self: center;
+    z-index: 0;
+}
+.main_title{
+    color: #000; 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2.2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container_form{
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: .1rem;
+    z-index: 1;
+    position: relative;
+}
+
+
+.subtitle{
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.label_text{
+    color: #000;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 240px;
+}
+
+.user_box{
+    width: 21.75rem;
+    height: 55px;
+    border-radius: .5rem;
+    border-style: none;
+    background-color: rgba(128, 128, 128, 0.286);
+    margin: 0 0 2rem 0;
+    padding: 0 .5rem;
+}
+
+.btn_login{
+    display: inline-block;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    border-radius: .2rem;
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+
+.btn_login:hover{
+   cursor: pointer;
+   background-color: #000000c0;
+}
+
+.position_btn{
+    display: flex;
+    justify-content: space-between;
+}
